@@ -52,6 +52,16 @@ main {
 
 }
 
+.recipe h2{
+	margin-top: 0;
+	color: #F16059;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 29px;
+}
+
 #cookies .image {
 	background-image: url('../img/gluten-free-sugar-cookies.jpg');
 	background-size: cover;
@@ -68,9 +78,40 @@ main {
 }
 
 
+.time {
+	margin-bottom: 20px;
+	border: 1px solid #3B3B3B;
+	overflow: auto;
+}
+
+.time div {
+	float: left;
+	padding-left: 6px;
+	width: 33.33%;
+	box-sizing: border-box;
+	text-transform: uppercase;
+}
+
+.time .cook {
+	border: 1px solid #3B3B3B;
+}
 
 
+.time img {
+	vertical-align: middle;
+	margin-right: 5px;
+	width: 15px;
+	height: auto;
+}
 
+.time-details {
+	display: inline-block;
+}
+
+
+.time p strong{
+	font-family: 'Montserrat';
+}
 
 
 
