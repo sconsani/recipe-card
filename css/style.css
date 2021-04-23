@@ -1,6 +1,6 @@
 body {
 	color: black;
-	background-color: #daf7f6;
+	background-color: #ffdcad;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 16px;
 	font-size: 12px;
@@ -10,16 +10,19 @@ body {
 header {
 	background-color: white;
 	text-align: center;
+	padding-left: 20px;
 }
 
 h1 {
 	font-size: 48px !important;
 	display: inline-block;
 	margin: 0;
-	padding: 40px 0;
-	font-family: 'Montserrat'sans-serif ;
+	padding: 15px 0;
+	font-family: 'Bebas Neue';
 	font-weight: bold;
 	text-transform: uppercase;
+
+	
 }
 
 header img{
@@ -38,13 +41,13 @@ main {
 
 .image {
 	width: 500px;
-	height: 550px;
+	height: 650px;
 	float: left;
 }
 
 .recipe{
 	width: 500px;
-	height: 550px;
+	height: 650px;
 	float: left;
 	padding: 20px;
 	background-color: white;
@@ -144,6 +147,7 @@ main {
 	padding-left: 15px;
 	line-height:24px ;
 	list-style-type: square;
+	overflow: scroll;
 }
 
 .directions ol{
