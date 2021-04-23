@@ -53,13 +53,25 @@ main {
 }
 
 .recipe h2{
-	margin-top: 0;
+	margin-top: 5px;
 	color: #F16059;
 	font-family: 'Montserrat';
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 24px;
 	line-height: 29px;
+}
+
+.recipe h3 {
+	padding: 6px;
+	margin-top: 0;
+	color: #F16059;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 12px;
+	
+
 }
 
 #cookies .image {
@@ -111,6 +123,32 @@ main {
 
 .time p strong{
 	font-family: 'Montserrat';
+}
+
+.columns{
+	overflow: auto;
+}
+
+.directions{
+	float: left;
+	width: 240px;
+}
+
+.ingredients{
+	float: left;
+	width: 205px;
+	margin-right: 5px;
+}
+
+.ingredients ul{
+	padding-left: 15px;
+	line-height:24px ;
+	list-style-type: square;
+}
+
+.directions ol{
+	padding-left: 15px;
+	line-height:24px ;
 }
 
 
